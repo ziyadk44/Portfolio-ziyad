@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="myProjects/webProject/icofont/css/icofont.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <title>Ziyad-Portfolio</title>
+    <style>
+        * {
+            scroll-behavior: smooth;
+            font-family: 'Quicksand', sans-serif;
+        }
+
+        body {
+            background-color: black;
+        }
+
+        .navbar {
+            background-color: black;
+            border-radius: 15px;
+        }
+
+        .navbar li {
+            float: left;
+            padding: 20px;
+            list-style: none;
+        }
+
+        .navbar li a {
+            text-decoration: none;
+            font-family: 'Quicksand', sans-serif;
+            color: #099FFF;
+        }
+
+        .navbar ul {
+            overflow: auto;
+
+        }
+
+        #intro {
+            background-image: url(Bg.jpg);
+            height: 500px;
+            border-radius: 20px;
+            background-attachment: fixed;
+
+
+        }
+
+        #name {
+            color: #099FFF;
+            margin: 50px;
+            font-size: 100px;
+            font-family: 'Quicksand', sans-serif;
+            font-weight: lighter;
+            /* padding: 20px; */
+            padding-top: 80px;
+            /* text-shadow: -1px 0px 3px #099FFF; */
+
+        }
+
+        .details {
+            color: #099FFF;
+            font-family: 'Quicksand', sans-serif;
+            margin: 15px;
+            font-weight: bold;
+            padding-left: 50px;
+        }
+
+        #About {
+            background-image: linear-gradient(to right, #099fff, #045080);
+            /* background-color: #099FFF; */
+            height: 250px;
+            border-radius: 20px;
+        }
+
+
+        .About-subheading {
+
+            font-family: 'Raleway', sans-serif;
+            color: black;
+            /* font-family: 'Quicksand', sans-serif; */
+            font-style: italic;
+            font-size: 35px;
+            margin: 5px;
+            /* padding-bottom: 10px; */
+            padding-left: 20px;
+            /* padding-top: 10px; */
+
+        }
+
+        #aboutme {
+            color: black;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 20px;
+            margin: 5px;
+            text-align: justify;
+            font-family: 'Quicksand', sans-serif;
+            font-weight: bold;
+        }
+
+        #Skills {
+            /* background-color: black; */
+            /* background-color: #0681ce; */
+            background-image: linear-gradient(to right, #099fff, #045080);
+            height: 420px;
+            border-radius: 20px;
+            align-items: center;
+            margin: auto;
+            margin-bottom: 50px;
+        }
+
+        .sub-skill {
+            /* color: #099fff; */
+            color: black;
+            /* font-family: 'Quicksand', sans-serif;*/
+            font-family: 'Raleway', sans-serif;
+            font-style: italic;
+            font-size: 35px;
+            margin-bottom: 20px;
+            /* padding-bottom: 10px; */
+            padding-left: 20px;
+            padding-top: 10px;
+            /* text-decoration: 2px black underline; */
+
+
+        }
+
+        .img {
+            padding-left: 20px;
+            padding-right: 5px;
+            vertical-align: baseline;
+            float: left;
+
+        }
+
+        .skillslist {
+
+            padding-left: 20px;
+            text-align: center;
+            box-sizing: border-box;
+            /* border-bottom:2px solid black; */
+            font-size: 20px;
+            vertical-align: baseline;
+            float: left;
+        }
+
+        .python {
+            /* float: left; */
+            align-items: center;
+            margin: auto;
+            padding-top: 20px;
+            padding-right: 20px;
+            padding-bottom: 30px;
+            overflow: auto;
+        }
+
+        .cpp {
+            /* float: left; */
+            overflow: auto;
+            padding-bottom: 30px;
+        }
+
+        .html {
+            padding-bottom: 30px;
+            overflow: auto;
+            /* float: left; */
+
+        }
+
+        .css {
+            padding-bottom: 20px;
+            overflow: auto;
+        }
+
+        /* #Contact{
+            margin: auto;
+            height: 300px;
+            border-radius: 20px;
+            background-image: linear-gradient(to right, #099fff, #045080);
+
+        } */
+    </style>
+</head>
+
+<body>
+    <div id="totop"></div>
+    <header>
+        <div>
+            <nav class="navbar" style="align-items: center;">
+                <ul>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="intro">
+        <h3 id="name">Ziyad Khan</h3>
+        <p class="details">I am a <em>Student</em></p>
+        <p class="details">I am a <em>Programmer</em></p>
+        <p class="details">I am a <em>Web Developer</em> </p>
+    </section>
+
+    <section id="About">
+        <h4 class="About-subheading" style="padding-top: 10px;">Hello!</h4>
+        <h4 class="About-subheading">I'm Ziyad.</h4>
+        <p id="aboutme">
+            I'm Ziyad Khan, a second year student at Vellore Institute of technology, Bhopal.
+            I'm a tech enthusiast and take keen interest in Web development .
+            You'd be glad to know, graphic designing is my forte .
+            A charismatic personality working towards the fullness of life.
+            I believe in growth; excelling individually and mutually.
+            I'm a visionary man and the founder of a youth led startup Incentive Model UN conference.
+            I'm calm yet steady and this keep my boat sailing.
+
+            I'd be glad to work with you and leave no stone unturned.
+
+            <i class="fab fa-python"></i><i class="fa fa-python" style="font-size: 30px;"></i>
+            <i class="fa fa-face" style="font-size:48px;"></i>
+
+        </p>
+    </section>
+    <section id="Skills">
+        <h4 class="sub-skill"></i>Skills</h4>
+        <p class="python">
+            <img class="img" src="https://img.icons8.com/metro/30/000000/python.png" />
+            <span class="skillslist">Python</span>
+        </p>
+        <p class="cpp">
+            <img class="img" src="https://img.icons8.com/ios-filled/30/000000/c-plus-plus-logo.png" />
+            <span class="skillslist">C++</span>
+        </p>
+        <p class="html">
+            <img class="img" src="https://img.icons8.com/ios-filled/30/000000/html-5--v1.png" />
+            <span class="skillslist">HTML</span>
+        </p>
+        <p class="css">
+            <img class="img" src="https://img.icons8.com/ios-filled/30/000000/css3.png" />
+            <span class="skillslist">CSS</span>
+        </p>
+
+        <p style="text-align: center; font-weight: bold;">Stay tuned for more!!!</p>
+    </section>
+
+    <footer id="Contact">
+        <div>
+            <nav class="navbar">
+                <ul style="align-items: center; padding-left: 25%;">
+                    <li><a href="mailto:ziyadk44@gmail.com" style="">ziyadk44@gmail.com</a></li>
+                    <li><a href="tel:+917828692989">+91 7828692989</a></li>
+                    <li><a
+                            href="https://www.linkedin.com/in/ziyad-khan-9349061a3?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bq6F4Tcy2QkSrvlAp8Lmugw%3D%3D">LinkedIn</a>
+                    </li>
+                    <li><a href="https://www.instagram.com/ziyadk44/">Instagram</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+</body>
+
+</html>
